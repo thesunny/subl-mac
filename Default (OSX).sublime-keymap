@@ -3,96 +3,44 @@
     "keys": ["j", "j"],
     "command": "exit_insert_mode",
     "context": [
-      { "key": "setting.command_mode", "operand": false },
-      { "key": "setting.is_widget", "operand": false }
+      {"key": "setting.command_mode", "operand": false},
+      {"key": "setting.is_widget", "operand": false}
     ]
   },
   {
     "keys": ["alt+k"],
     "command": "move",
-    "args": {
-      "by": "pages",
-      "forward": false,
-      "amount": 40.0,
-      "context": [
-        { "key": "setting.command_mode" }
-      ]
-    }
+    "args": { "by": "pages", "forward": false, "amount": 40.0},
+    "context": [{ "key": "setting.command_mode" }]
   },
   {
     "keys": ["alt+j"],
     "command": "move",
-    "args": {
-      "by": "pages",
-      "forward": true,
-      "amount": -40.0,
-      "context": [
-        { "key": "setting.command_mode" }
-      ]
-    }
+    "args": {"by": "pages", "forward": true, "amount": -40.0},
+    "context": [{ "key": "setting.command_mode" }]
   },
   {
-    "keys": [
-      "h"
-    ],
+    "keys": ["h"],
     "command": "move",
-    "args": {
-      "by": "characters",
-      "forward": false
-    },
-    "context": [
-      {
-        "key": "control",
-        "operand": "sidebar_tree"
-      }
-    ]
+    "args": {"by": "characters", "forward": false },
+    "context": [{"key": "control", "operand": "sidebar_tree"}]
   },
   {
-    "keys": [
-      "j"
-    ],
+    "keys": ["j"],
     "command": "move",
-    "args": {
-      "by": "lines",
-      "forward": true
-    },
-    "context": [
-      {
-        "key": "control",
-        "operand": "sidebar_tree"
-      }
-    ]
+    "args": {"by": "lines", "forward": true},
+    "context": [{"key": "control", "operand": "sidebar_tree"}]
   },
   {
-    "keys": [
-      "k"
-    ],
+    "keys": ["k"],
     "command": "move",
-    "args": {
-      "by": "lines",
-      "forward": false
-    },
-    "context": [
-      {
-        "key": "control",
-        "operand": "sidebar_tree"
-      }
-    ]
+    "args": {"by": "lines", "forward": false},
+    "context": [{"key": "control", "operand": "sidebar_tree"}]
   },
   {
-    "keys": [
-      "l"
-    ],
+    "keys": ["l"],
     "command": "move",
-    "args": {
-      "by": "characters",
-      "forward": true
-    },
-    "context": [
-      {
-        "key": "control",
-        "operand": "sidebar_tree"
-      }
-    ]
+    "args": {"by": "characters", "forward": true},
+    "context": [{"key": "control", "operand": "sidebar_tree"}]
   }
 ]
