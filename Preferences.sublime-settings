@@ -1,6 +1,6 @@
 {
 	"detect_indetation": false,
-	"folder_exclude_pattern":
+	"folder_exclude_patterns":
     [".svn", ".git", ".hg", "CVS", ".sass-cache"],
 	"ignored_packages": [],
 	"rulers": [80],
